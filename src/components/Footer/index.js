@@ -1,6 +1,6 @@
 import React from "react";
-import gitHub from "../../assets/images/gitHub";
-import linkedIn from "../../assets/images/linkedInP";
+import gitHub from "../../assets/images/gitHub.png";
+import linkedIn from "../../assets/images/linkedInP.png";
 
 
 
