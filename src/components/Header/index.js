@@ -1,5 +1,4 @@
 import React from "react";
-import Navigation from "../Navigation";
 
 function Header() {
     return (
@@ -9,9 +8,6 @@ function Header() {
                     <span role="img" aria-label="banana">🍌 </span>Patrick Cranford
                 </a>
             </h2>
-            <Navigation></Navigation>
-
-
         </header >
     );
 }

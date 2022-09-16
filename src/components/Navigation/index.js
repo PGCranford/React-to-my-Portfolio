@@ -4,6 +4,7 @@ import React from "react";
 
 function Navigation(props) {
     const {
+
         contactSelected,
         setContactSelected
     } = props

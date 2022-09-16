@@ -1,53 +1,65 @@
 import React, { useState } from "react";
 import { capitalizeFirstLetter } from '../../utils/helpers';
-import photos from "../../assets/projects";
+import Hover from '../Hover'
 
 const Project = ({ category }) => {
-    const [currentPhoto, setCurrentPhoto] = useState()
+    const [currentPhoto, setCurrentPhoto] = useState();
 
     const [photos] = useState([
         {
             name: 'Horiseon',
+            category: 'Project',
             description: 'First time correcting code that was not working as expected'
         },
         {
             name: 'Rent A Ride',
+            category: 'Project',
             description: 'Second Group Project using Node and Express, Handlebars, MYSQL and Sequelize'
         },
         {
             name: 'Run Buddy',
-            description: 
+            category: 'Project',
+            description: 'Beginning of my coding journey, basic HTML and CSS'
         }
+    ]);
 
+    const currentPhotos = photos.filter(photo => photo.category === category);
 
-
-    ])
     const [isHovering, setIsHovering] = useState(false);
 
-    const handleMouseOver = () => {
-        setIsHovering(true);
-    };
+    // const handleMouseOver = () => {
+    //     setIsHovering(true);
+    // };
     const handleMouseOut = () => {
         setIsHovering(false);
     };
 
+    const hoverOver = (image, i) => {
+        setCurrentPhoto({ ...image, index: i });
+
+    }
+
     return (
         <div className="flex-row">
-            <div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+            {isHovering && (
+                <Hover onClose={handleMouseOut} currentPhoto={currentPhoto} />
+            )}
+            <div>
+
                 {currentPhotos.map((image, i) => (
                     <img
-                        src={require(`../../assets/projects/${i}.jpg`).default}
+                        src={require(`../../assets/projects/${category}/${i}.jpg`).default}
                         alt={image.name}
                         className="thumbnail mx-1"
-
+                        isHovering={() => hoverOver(image, i)}
                         key={image.name}
 
 
                     />
                 ))};
-
             </div>
-        </div>
+
+        </div >
     );
 };
 
