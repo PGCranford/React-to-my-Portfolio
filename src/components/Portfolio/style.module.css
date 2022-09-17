@@ -1,6 +1,4 @@
 .project-display {
-    width: 30%;
-    position: relative;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

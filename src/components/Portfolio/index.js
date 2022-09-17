@@ -16,23 +16,23 @@ const projects = [
     {
         name: "Note Taker",
         links: "",
-        imagePath: require("../../assets/projects/2 .jpg")
+        imagePath: require("../../assets/projects/2.jpg")
+    },
+    {
+        name: "",
+        links: "",
+        imagePath: require("../../assets/projects/3.jpg")
+    },
+    {
+        name: "",
+        links: "",
+        imagePath: require("../../assets/projects/4.jpg")
+    },
+    {
+        name: "",
+        links: "",
+        imagePath: require("../../assets/projects/5.jpg")
     }
-    // {
-    //     name: "",
-    //     links: "",
-    //     imagePath: require("../../assets/projects/")
-    // },
-    // {
-    //     name: "",
-    //     links: "",
-    //     imagePath: require("../../assets/images/")
-    // },
-    // {
-    //     name: "",
-    //     links: "",
-    //     imagePath: require("../../assets/images/")
-    // }
 ];
 
 const Portfolio = () => {
