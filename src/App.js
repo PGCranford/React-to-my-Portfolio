@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Portfolio from './components/Portfolio';
@@ -6,33 +6,47 @@ import Contact from './components/Contact';
 import About from './components/About'
 import Resume from './components/Resume'
 import './App.css';
-import coverImage from './assets/images/curtains.jpg'
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+
 
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
-  const [aboutSelected, setAboutSelected] = useState(false);
-  const [portfolioSelected, setPortfolioSelected] = useState(false);
-  const [resumeSelected, setResumeSelected] = useState(false);
   return (
-    <div>
-      <Header></Header>
-      <main>
-        <>
-          <img src={coverImage} className="coverImage" style={{ width: "100%" }} alt="cover" />
-        </>
-        {!contactSelected && !aboutSelected && !portfolioSelected && !resumeSelected ? (
-          <></>
-        ) : (
-          <Contact></Contact>,
-          <About></About>,
-          <Portfolio></Portfolio>,
-          <Resume></Resume>
-        )
-        }
-      </main>
-      <Footer></Footer>
-    </div>
+    <Router>
+      <div>
+
+        <Header></Header>
+        <main>
+          <Routes>
+            <Route
+              path="/Contact"
+              element={<Contact />}
+            />
+            <Route
+              path="/About"
+              element={<About />}
+            />
+            <Route
+              path="/Portfolio"
+              element={<Portfolio />}
+            />
+            <Route
+              path="/Resume"
+              element={<Resume />}
+            />
+            <Route
+              path='/'
+              element={<Home />}
+            />
+          </Routes>
+
+
+        </main>
+        <Footer></Footer>
+      </div>
+    </Router>
 
   );
 }

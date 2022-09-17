@@ -1,6 +1,6 @@
 import React from "react";
-import gitHub from "../../assets/images/gitHub.jpg";
-import linkedIn from "../../assets/images/Thumb.jpg";
+import gitHub from "../../assets/images/gitHub.png";
+import linkedIn from "../../assets/images/Linked.png";
 
 
 
@@ -10,7 +10,7 @@ function Footer() {
         <footer className="flex-row footerMain">
             <h3 id="footer">
                 <a href="https://github.com/PGCranford"> <img src={gitHub} alt="Git Hub Logo"></img></a>
-                <a href="https://www.linkedin.com/feed/"> <img src={linkedIn} alt="LinkedIn Logo"></img></a>
+                <a href="https://www.linkedin.com/in/patrick-cranford-320b70216?trk=people-guest_people_search-card"> <img src={linkedIn} alt="LinkedIn Logo"></img></a>
             </h3>
         </footer>
     )

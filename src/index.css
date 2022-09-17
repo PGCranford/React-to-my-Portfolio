@@ -15,7 +15,11 @@ code {
 
 .headerMain {
   background-color: #5B79B1;
+  padding: 0%;
+
 }
+
+
 
 .nav-row {
   display: flex;
@@ -34,7 +38,7 @@ code {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 8rem;
+  height: 4rem;
   background-color: #5B3493;
   display: flex;
   flex-wrap: wrap;

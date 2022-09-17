@@ -1,11 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import Navigation from "../Navigation";
 
+
 function Header() {
-    const [contactSelected, setContactSelected] = useState(false);
-    const [aboutSelected, setAboutSelected] = useState(false);
-    const [portfolioSelected, setPortfolioSelected] = useState(false);
-    const [resumeSelected, setResumeSelected] = useState(false)
+
 
     return (
         <header className="flex-row headerMain">
@@ -14,14 +12,6 @@ function Header() {
                     <span role="img" aria-label="banana">🍌 </span>Patrick Cranford
                 </a>
                 <Navigation
-                    contactSelected={contactSelected}
-                    setContactSelected={setContactSelected}
-                    aboutSelected={aboutSelected}
-                    setAboutSelected={setAboutSelected}
-                    portfolioSelected={portfolioSelected}
-                    setPortfolioSelected={setPortfolioSelected}
-                    resumeSelected={resumeSelected}
-                    setResumeSelected={setResumeSelected}
                 ></Navigation>
             </h2>
         </header >

@@ -1,43 +1,38 @@
 import React from "react";
+import About from "../About";
+import { Link } from 'react-router-dom';
 
 
 
-function Navigation(props) {
-
-    const {
-        contactSelected,
-        setContactSelected,
-        aboutSelected,
-        setAboutSelected,
-        portfolioSelected,
-        setPortfolioSelected,
-        resumeSelected,
-        setResumeSelected
-
-    } = props
+function Navigation() {
     return (
         <nav>
             <ul className="nav-row">
-                <li className={`mx-2 ${contactSelected && portfolioSelected && resumeSelected && 'navActive'}`}>
-                    <a id="about" href="#about" onClick={() => setAboutSelected(true)}>
-                        About me
-                    </a>
-                </li>
-                <li className={`mx-2 ${contactSelected && aboutSelected && resumeSelected && 'navActive'}`}>
-                    <a id="portfolio" href="#portfolio" onClick={() => setPortfolioSelected(true)}>
-                        Portfolio
-                    </a>
-                </li>
-                <li className={`mx-2 ${contactSelected && aboutSelected && portfolioSelected && 'navActive'}`}>
-                    <a id="resume" href="#resume" onClick={() => setResumeSelected(true)}>
-                        Resume
-                    </a>
-                </li>
-                <li className={`mx-2 ${aboutSelected && portfolioSelected && resumeSelected && 'navActive'}`}>
-                    <a id="contact" href="#contact" onClick={() => setContactSelected(true)}>
-                        Contact
-                    </a>
-                </li>
+                <Link
+                    to={`/About`}
+                >
+
+                    <li className="links">About Me
+                    </li>
+                </Link>
+                <Link
+                    to={'/Portfolio'}
+                >
+                    <li className="links"> Portfolio
+                    </li>
+                </Link>
+                <Link
+                    to={'/Resume'}
+                >
+                    <li className="links">Resume
+                    </li>
+                </Link>
+                <Link
+                    to={'/Contact'}
+                >
+                    <li className="links"> Contact
+                    </li>
+                </Link>
 
             </ul>
         </nav >
