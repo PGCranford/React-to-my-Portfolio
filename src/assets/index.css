@@ -40,23 +40,3 @@ body {
     font-family: 'Poiret One', cursive;
 
 }
-
-.header {
-    background-color: #5B79B1;
-}
-
-.bio {
-    font-size: 1.1rem;
-    background-color: #737E96;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: normal;
-}
-
-.footer {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 10rem;
-    background-color: #5B3493;
-
-}
