@@ -1,32 +1,10 @@
-.project {
+.project-display {
+    width: 30%;
     position: relative;
-}
-
-.project img {
-    width: 100%;
-}
-
-.project .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 
-    color: white;
-    background-color: transparent;
-    opacity: 0;
 
-    transition: color 1s, opacity 0.1s, background-color 1s;
-}
-
-.project .overlay:hover {
-    color: black;
-    background-color: white;
-    opacity: 0.85;
 }
