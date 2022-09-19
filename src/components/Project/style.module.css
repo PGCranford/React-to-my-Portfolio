@@ -1,12 +1,12 @@
 .project-image {
     position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 .project-image img {
-    width: 100%;
+    width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 
 }
 
@@ -30,9 +30,11 @@
 }
 
 .project-image .overlay:hover {
-    /* width: 20%;
-    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     color: black;
-    background-color: white; */
+    background-color: white;
     opacity: 0.85;
 }

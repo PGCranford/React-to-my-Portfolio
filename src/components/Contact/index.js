@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from '../../utils/helpers'
+import styles from "./style.module.css";
 
 
 function Contact() {
@@ -40,20 +41,20 @@ function Contact() {
 
     // JSX
     return (
-        <section>
+        <section className={styles["contact-form"]}>
             <h1 id="contact">Contact me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                    <label htmlFor="name" className={styles["form-input"]}>Name:</label>
+                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} className={styles["form-space"]} />
                 </div>
                 <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                    <label htmlFor="email" className={styles["form-input"]}>Email address:</label>
+                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} className={styles["form-space"]} />
                 </div>
                 <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                    <label htmlFor="message" className={styles["form-input"]}>Message:</label>
+                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} className={styles["form-space"]} />
                 </div>
                 {errorMessage && (
                     <div>

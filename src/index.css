@@ -19,8 +19,6 @@ code {
 
 }
 
-
-
 .nav-row {
   display: flex;
   flex-wrap: wrap;
@@ -45,7 +43,8 @@ code {
   justify-content: center;
 }
 
+/* 
 .projects {
   width: fit-content;
   height: 45rem;
-}
+} */

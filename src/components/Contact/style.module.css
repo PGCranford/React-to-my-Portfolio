@@ -1,0 +1,22 @@
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5B79B1;
+    text-align: center;
+    height: auto;
+
+}
+
+.form-input {
+    font: bold;
+    justify-content: space-around;
+
+}
+
+.form-space {
+    justify-content: center;
+    border-radius: 15px;
+    align-items: inherit
+}

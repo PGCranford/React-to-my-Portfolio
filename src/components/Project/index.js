@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./style.module.css";
 
-const Project = ({ name, links, imagePath }) => {
+const Project = ({ name, link1, link2, imagePath }) => {
 
     return (
         <div className={styles["project-image"]}>
@@ -9,7 +9,8 @@ const Project = ({ name, links, imagePath }) => {
 
             <div className={styles["overlay"]}>
                 <h3>{name}</h3>
-                <p> {links} </p>
+                <p> {link1}</p>
+                <p>{link2}</p>
             </div>
         </div >
     );
