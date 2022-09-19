@@ -1,22 +1,20 @@
 .contact-form {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
     background-color: #5B79B1;
     text-align: center;
-    height: auto;
+    height: 100%;
+
 
 }
 
 .form-input {
     font: bold;
+    display: flex;
     justify-content: space-around;
+    flex-direction: column;
 
 }
 
 .form-space {
     justify-content: center;
     border-radius: 15px;
-    align-items: inherit
 }
