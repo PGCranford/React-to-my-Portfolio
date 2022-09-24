@@ -9,7 +9,7 @@ function Resume() {
 
         <section className={styles["resume"]}>
             <div className={styles["resume-page"]}>
-                <img src={coding} className={styles["cover-image"]} style={{ width: "100%", height: "50%" }} alt="cover" />
+                <img src={coding} className={styles["cover-image"]} style={{ width: "100%", height: "100%" }} alt="cover" />
                 <div className={styles["resume-section"]}>
                     <a className={styles["resume-link"]} href="https://docs.google.com/document/d/149r0ZQtq28xd6zszK5IMEyq1MGJ2kAdNmVzKNMYLhAY/edit?usp=sharing" >Resume</a>
                     <div className={styles["resume-title"]}>Language Proficiencies</div>

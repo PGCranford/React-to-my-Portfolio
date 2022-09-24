@@ -1,16 +1,4 @@
-.profile {
-    position: fixed;
-    top: 8rem;
-    left: 30%;
-    right: 30%;
-    color: azure;
-}
-
 .bio {
-    position: static;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    font-size: 1.3rem;
-    display: flex;
-    flex-wrap: wrap;
+    padding-top: 12rem;
+    color: rgb(223, 216, 217);
 }
