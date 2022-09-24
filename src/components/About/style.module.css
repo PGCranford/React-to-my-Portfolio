@@ -1,6 +1,16 @@
+.profile {
+    position: fixed;
+    top: 8rem;
+    left: 30%;
+    right: 30%;
+    color: azure;
+}
+
 .bio {
-    font-size: 1.1rem;
-    background-color: #737E96;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: normal;
+    position: static;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 1.3rem;
+    display: flex;
+    flex-wrap: wrap;
 }

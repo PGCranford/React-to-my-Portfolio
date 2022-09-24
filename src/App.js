@@ -20,7 +20,7 @@ function App() {
   return (
 
 
-    <Router>
+    <Router className="main-app">
       <div>
         <Header></Header>
         <main>

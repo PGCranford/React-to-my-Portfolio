@@ -44,7 +44,7 @@ function Contact() {
     return (
         <div class={styles["container"]}>
             <section className={styles["contact-form"]}>
-                <img src={coverImage} className={styles["contact-image"]} style={{ width: "100%", height: "80%" }} alt="cover" />
+                <img src={coverImage} className={styles["contact-image"]} style={{ width: "100%", height: "50%" }} alt="cover" />
                 <div className={styles["contact-block"]}>
                     <h1 className={styles["contact-section"]} id="contact">Contact me</h1>
                     <form id="contact-form" onSubmit={handleSubmit}>
