@@ -1,0 +1,21 @@
+.resume {
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.resume-link {
+    display: block;
+    position: relative;
+    left: 40rem;
+    font-size: larger;
+
+
+}
+
+.resume-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
