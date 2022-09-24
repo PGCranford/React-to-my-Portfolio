@@ -5,10 +5,10 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import About from './components/About'
 import Resume from './components/Resume'
+import Home from './components/Home';
 import './App.css';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
 
 
 
@@ -42,8 +42,6 @@ function App() {
               element={<Home />}
             />
           </Routes>
-
-
         </main>
         <Footer></Footer>
       </div>

@@ -1,0 +1,15 @@
+.footer-display {
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: #5B3493;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+
+}

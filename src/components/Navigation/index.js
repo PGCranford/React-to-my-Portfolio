@@ -1,17 +1,17 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import styles from "./style.module.css";
 
 
 
 function Navigation() {
     return (
         <nav>
-            <ul className="nav-row">
+            <ul className={styles["nav-row"]}>
                 <Link
                     to={`/About`}
                 >
-
-                    <li className="links">About Me
+                    <li className={styles["links"]} > About Me
                     </li>
                 </Link>
                 <Link
@@ -32,7 +32,6 @@ function Navigation() {
                     <li className="links"> Contact
                     </li>
                 </Link>
-
             </ul>
         </nav >
     );

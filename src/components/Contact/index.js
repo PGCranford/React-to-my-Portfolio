@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { validateEmail } from '../../utils/helpers'
 import styles from "./style.module.css";
+import coverImage from '../../assets/images/curtains.jpg'
 
 
 function Contact() {
@@ -41,29 +42,34 @@ function Contact() {
 
     // JSX
     return (
-        <section className={styles["contact-form"]}>
-            <h1 id="contact">Contact me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name" className={styles["form-input"]}>Name:</label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} className={styles["form-space"]} />
+        <div class={styles["container"]}>
+            <section className={styles["contact-form"]}>
+                <img src={coverImage} className={styles["contact-image"]} style={{ width: "100%", height: "80%" }} alt="cover" />
+                <div className={styles["contact-block"]}>
+                    <h1 className={styles["contact-section"]} id="contact">Contact me</h1>
+                    <form id="contact-form" onSubmit={handleSubmit}>
+                        <div>
+                            <label htmlFor="name" className={styles["form-input"]}>Name:</label>
+                            <input type="text" name="name" defaultValue={name} onBlur={handleChange} className={styles["form-space"]} />
+                        </div>
+                        <div>
+                            <label htmlFor="email" className={styles["form-input"]}>Email address:</label>
+                            <input type="email" name="email" defaultValue={email} onBlur={handleChange} className={styles["form-space"]} />
+                        </div>
+                        <div>
+                            <label htmlFor="message" className={styles["form-input"]}>Message:</label>
+                            <textarea name="message" rows="7" cols="35" defaultValue={message} onBlur={handleChange} className={styles["form-space"]} />
+                        </div>
+                        {errorMessage && (
+                            <div>
+                                <p className="error-text">{errorMessage}</p>
+                            </div>
+                        )}
+                        <button id="button" type="submit">Submit</button>
+                    </form>
                 </div>
-                <div>
-                    <label htmlFor="email" className={styles["form-input"]}>Email address:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} className={styles["form-space"]} />
-                </div>
-                <div>
-                    <label htmlFor="message" className={styles["form-input"]}>Message:</label>
-                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} className={styles["form-space"]} />
-                </div>
-                {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
-                    </div>
-                )}
-                <button id="button" type="submit">Submit</button>
-            </form>
-        </section>
+            </section>
+        </div>
     )
 }
 

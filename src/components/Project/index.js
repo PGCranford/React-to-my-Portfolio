@@ -9,8 +9,8 @@ const Project = ({ name, link1, link2, imagePath }) => {
 
             <div className={styles["overlay"]}>
                 <h3>{name}</h3>
-                <a href={link1}>{link1}</a>
-                <a href={link2}></a>
+                <a href={link1}>Github Repository</a>
+                <a href={link2}>Deployed Site</a>
             </div>
         </div >
     );
