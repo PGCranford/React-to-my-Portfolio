@@ -8,16 +8,20 @@ import Resume from './components/Resume'
 import Home from './components/Home';
 import './App.css';
 
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 
 
 function App() {
+
+
   return (
+
+
     <Router>
       <div>
-
         <Header></Header>
         <main>
           <Routes>

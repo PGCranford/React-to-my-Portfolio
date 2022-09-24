@@ -1,21 +1,43 @@
+.cover-image {
+    opacity: 100%;
+
+
+}
+
 .resume {
     justify-content: center;
     align-items: center;
 
 }
 
+.resume-section {
+    position: absolute;
+    top: 15rem;
+    left: 40%;
+    bottom: 15rem;
+}
+
 
 .resume-link {
-    display: block;
-    position: relative;
-    left: 40rem;
-    font-size: larger;
+    top: 15rem;
+    left: 40%;
+    bottom: 15rem;
+    font-size: 118px;
+    color: darkgoldenrod;
 
+}
 
+.resume-title {
+    display: flex;
+    justify-content: center;
+    padding-right: 49rem;
+    font-size: 1.3rem;
 }
 
 .resume-list {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 1.6rem;
+    padding-right: 50rem;
 }

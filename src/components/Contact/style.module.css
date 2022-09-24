@@ -10,8 +10,9 @@
 
 .contact-block {
     position: absolute;
-    top: 11rem;
-    left: 45rem;
+    top: 15rem;
+    left: 40%;
+
     bottom: 15rem;
 }
 
