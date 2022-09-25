@@ -1,5 +1,5 @@
 .contact-image {
-    opacity: 70%;
+    opacity: 5%;
 }
 
 
@@ -11,10 +11,12 @@
 }
 
 .form-input {
-    font: bold;
+    font: bolder;
+    color: blue;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+
 
 }
 
