@@ -7,9 +7,8 @@ function Header() {
 
 
     return (
-        <header className={styles["headerMain"]}>
-
-            <h2 id="header" className={styles["headerRow"]} >
+        <header className={styles["header"]}>
+            <h2 >
                 <a id="link" href="/">
                     <span role="img" aria-label="banana">🍌 </span>Patrick Cranford
                 </a>

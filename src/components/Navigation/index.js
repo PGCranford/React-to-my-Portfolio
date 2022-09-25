@@ -17,19 +17,19 @@ function Navigation() {
                 <Link
                     to={'/Portfolio'}
                 >
-                    <li className="links"> Portfolio
+                    <li className={styles["links"]}> Portfolio
                     </li>
                 </Link>
                 <Link
                     to={'/Resume'}
                 >
-                    <li className="links">Resume
+                    <li className={styles["links"]}>Resume
                     </li>
                 </Link>
                 <Link
                     to={'/Contact'}
                 >
-                    <li className="links"> Contact
+                    <li className={styles["links"]}> Contact
                     </li>
                 </Link>
             </ul>
