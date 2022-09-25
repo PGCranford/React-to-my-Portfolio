@@ -7,3 +7,8 @@
     height: 100%;
     opacity: 92%;
 }
+
+.avatar {
+    border-radius: 28%;
+    padding-left: 10%;
+}

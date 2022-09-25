@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./style.module.css";
+import avatar from "../../assets/images/chimp.jpg"
 
 function About() {
     return (
@@ -8,6 +9,8 @@ function About() {
         <section class="hero is-fullheight" className={styles["image"]}>
             <div class="hero-body" >
                 <div class="container" className={styles["about"]}>
+                    <img className={styles["avatar"]} src={avatar} alt="avatar"></img>
+
                     <h1 class="title has-text-white has-text-right" >Patrick Cranford - Web Developer</h1>
                 </div>
 

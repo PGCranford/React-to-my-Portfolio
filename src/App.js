@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Portfolio from './components/Portfolio';
@@ -14,44 +14,46 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 
-function App() {
+class App extends Component {
+  render() {
+    return (
 
+      <Router className="main-app" >
 
-  return (
+        <div className="cover-image" >
+          <Header></Header>
 
+          <main>
+            <div className="cover-image">
+              <Routes>
+                <Route
+                  path="/Contact"
+                  element={<Contact />}
+                />
+                <Route
+                  path="/About"
+                  element={<About />}
+                />
+                <Route
+                  path="/Portfolio"
+                  element={<Portfolio />}
+                />
+                <Route
+                  path="/Resume"
+                  element={<Resume />}
+                />
+                <Route
+                  path='/'
+                  element={<Home />}
+                />
+              </Routes>
+            </div>
+          </main>
+          <Footer></Footer>
+        </div>
+      </Router>
 
-    <Router className="main-app">
-      <div>
-        <Header></Header>
-        <main>
-          <Routes>
-            <Route
-              path="/Contact"
-              element={<Contact />}
-            />
-            <Route
-              path="/About"
-              element={<About />}
-            />
-            <Route
-              path="/Portfolio"
-              element={<Portfolio />}
-            />
-            <Route
-              path="/Resume"
-              element={<Resume />}
-            />
-            <Route
-              path='/'
-              element={<Home />}
-            />
-          </Routes>
-        </main>
-        <Footer></Footer>
-      </div>
-    </Router>
-
-  );
+    );
+  }
 }
-
 export default App;
