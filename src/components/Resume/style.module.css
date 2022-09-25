@@ -1,42 +1,32 @@
-.cover-image {
-    opacity: 100%;
-
+.resume-image {
+    background-image: url(../../assets/images/coding.jpg);
+    background-position: center center;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 92%;
 }
-
-.resume {
-    justify-content: center;
-    align-items: center;
-
-}
-
-.resume-section {
-    position: absolute;
-    top: 15rem;
-    left: 40%;
-    bottom: 15rem;
-}
-
 
 .resume-link {
-    top: 15rem;
-    left: 40%;
-    bottom: 15rem;
-    font-size: 118px;
-    color: darkgoldenrod;
-
-}
-
-.resume-title {
+    font-size: 3.8rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    padding-right: 49rem;
-    font-size: 1.3rem;
+    color: rgb(37, 75, 202)
 }
 
-.resume-list {
+.resume-header {
+    font-size: 2.8rem;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(55, 27, 108)
+}
+
+.resume-skills {
+    font-size: 1.9rem;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: flex-start;
-    font-size: 1.6rem;
-    padding-right: 50rem;
+    color: rgb(55, 27, 108)
 }
