@@ -5,6 +5,7 @@
     background-attachment: fixed;
     background-size: cover;
     opacity: 92%;
+    height: 100vh;
 }
 
 .resume-link {

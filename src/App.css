@@ -39,7 +39,10 @@
   }
 } */
 
-.main-app {}
+.main-app {
+  height: 100%;
+  width: 100%;
+}
 
 .cover-image {
   background-image: url(../src/assets/images/space.gif);

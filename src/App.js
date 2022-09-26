@@ -44,7 +44,7 @@ class App extends Component {
                 />
                 <Route
                   path='/'
-                  element={<Home />}
+                // element={<App />}
                 />
               </Routes>
             </div>

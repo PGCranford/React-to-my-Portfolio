@@ -44,6 +44,7 @@ const projects = [
 
 const Portfolio = () => {
     return (
+
         <div className={styles["project-display"]} >
             {
                 projects.map(({ name, link1, link2, imagePath }) => (
@@ -57,6 +58,7 @@ const Portfolio = () => {
                 ))
             }
         </div >
+
     );
 };
 

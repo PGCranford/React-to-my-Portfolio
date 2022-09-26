@@ -4,7 +4,6 @@
     flex-direction: row;
     justify-content: space-around;
     background-color: rgb(60, 101, 114);
-    padding: 3rem;
-
-
+    padding: 1.5rem;
+    max-height: 100vh
 }

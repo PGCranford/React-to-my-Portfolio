@@ -4,11 +4,11 @@ import styles from "./style.module.css";
 
 
 
-function Home() {
+// function Home() {
 
-    return (
-        <img src={coverImage} className={styles["cover-image"]} style={{ width: "100%", height: "80%" }} alt="cover" />
-    );
-}
+//     return (
+//         <img src={coverImage} className={styles["cover-image"]} style={{ width: "100%", height: "80%" }} alt="cover" />
+//     );
+// }
 
-export default Home;
+// export default Home;
