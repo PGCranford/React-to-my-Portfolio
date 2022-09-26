@@ -39,19 +39,12 @@
   }
 } */
 
-html {
-  height: 100%;
-}
-
-body {
-  margin: 0px;
-  width: 100%;
-  min-height: 100vh
-}
+.main-app {}
 
 .cover-image {
   background-image: url(../src/assets/images/space.gif);
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
+
 }
