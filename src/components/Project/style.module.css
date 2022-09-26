@@ -41,15 +41,16 @@
     opacity: 0.85;
 }
 
+@media(hover:none) {
+    .project-image .overlay:hover {
+        color: black;
+    }
+}
+
 .project-name {
     font-size: 1.8rem;
 }
 
 .project-link {
     font-size: 1.3rem;
-}
-
-.et_pb_grid_item {
-    position: relative;
-
 }

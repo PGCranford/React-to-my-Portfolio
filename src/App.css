@@ -47,7 +47,7 @@
 .cover-image {
   background-image: url(../src/assets/images/space.gif);
   background-size: cover;
-  height: 100vh;
+  height: 86vh;
   background-repeat: no-repeat;
 
 }

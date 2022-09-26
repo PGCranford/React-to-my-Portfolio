@@ -29,5 +29,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    color: rgb(55, 27, 108)
+    color: rgb(55, 27, 108);
+    height: 100%;
 }
