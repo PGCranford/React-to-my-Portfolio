@@ -7,3 +7,18 @@
     padding: 1.5rem;
     max-height: 100vh
 }
+
+@media screen {
+    .project-display {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(60, 101, 114);
+        padding: 1.5rem;
+        max-width: auto;
+        max-height: 100vh
+    }
+
+
+}

@@ -36,3 +36,10 @@
 .form-space {
     width: 20%;
 }
+
+@media screen {
+    .form-space {
+        width: 100%;
+        margin-top: 0;
+    }
+}

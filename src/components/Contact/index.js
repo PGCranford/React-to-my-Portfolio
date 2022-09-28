@@ -53,12 +53,12 @@ function Contact() {
                         <input class="input" type="text" defaultValue={name} onBlur={handleChange} className={styles["form-space"]} />
 
                         <div>
-                            <label class="label" htmlFor="email" className={styles["form-input"]}>Email address:</label>
+                            <label class="label " htmlFor="email" className={styles["form-input"]}>Email address:</label>
                             <input class="input" type="email" name="email" defaultValue={email} onBlur={handleChange} className={styles["form-space"]} />
                         </div>
                         <div>
                             <label class="label" htmlFor="message" className={styles["form-input"]}>Message:</label>
-                            <textarea class="input" name="message" rows="7" cols="35" defaultValue={message} onBlur={handleChange} className={styles["form-space"]} />
+                            <textarea class="input textarea is-small" name="message" rows="7" cols="35" defaultValue={message} onBlur={handleChange} className={styles["form-space"]} />
                         </div>
                         {errorMessage && (
                             <div>

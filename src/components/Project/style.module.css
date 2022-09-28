@@ -42,9 +42,11 @@
 }
 
 @media(hover:none) {
-    .project-image .overlay:hover {
-        color: black;
+
+    .project-image {
+        opacity: .41;
     }
+
 }
 
 .project-name {

@@ -4,8 +4,9 @@ import Header from './components/Header';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import About from './components/About'
+import Home from './components/Home'
 import Resume from './components/Resume'
-import Home from './components/Home';
+
 import './App.css';
 
 
@@ -25,26 +26,27 @@ class App extends Component {
 
           <main>
             <div className="cover-image">
+
               <Routes>
                 <Route
-                  path="/Contact"
+                  exact path="/Contact"
                   element={<Contact />}
                 />
                 <Route
-                  path="/About"
+                  exact path="/About"
                   element={<About />}
                 />
                 <Route
-                  path="/Portfolio"
+                  exact path="/Portfolio"
                   element={<Portfolio />}
                 />
                 <Route
-                  path="/Resume"
+                  exact path="/Resume"
                   element={<Resume />}
                 />
                 <Route
-                  path='/'
-                // element={<App />}
+                  exact path='/Home'
+                  element={<Home />}
                 />
               </Routes>
             </div>

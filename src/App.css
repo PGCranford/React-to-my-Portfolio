@@ -1,4 +1,4 @@
-/* .App {
+.App {
   text-align: center;
 
 }
@@ -37,7 +37,7 @@
   to {
     transform: rotate(360deg);
   }
-} */
+}
 
 .main-app {
   height: 100%;
@@ -49,5 +49,16 @@
   background-size: cover;
   height: 86vh;
   background-repeat: no-repeat;
+
+}
+
+@media screen {
+  .cover-image {
+    background-image: url(../src/assets/images/space.gif);
+    background-size: cover;
+    height: 86vh;
+    background-repeat: no-repeat;
+
+  }
 
 }
