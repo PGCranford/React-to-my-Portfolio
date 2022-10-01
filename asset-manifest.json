@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PGCranford/React-to-my-Portfolio/static/css/main.4fd9e0d2.css",
+    "main.css": "/PGCranford/React-to-my-Portfolio/static/css/main.920c24e9.css",
     "main.js": "/PGCranford/React-to-my-Portfolio/static/js/main.e17fca88.js",
     "static/media/space.gif": "/PGCranford/React-to-my-Portfolio/static/media/space.7d8bf2b750a2f9e9c4a4.gif",
     "static/media/0.jpg": "/PGCranford/React-to-my-Portfolio/static/media/0.5266640bca30e9441445.jpg",
@@ -15,11 +15,11 @@
     "static/media/1.jpg": "/PGCranford/React-to-my-Portfolio/static/media/1.68c3005df47d99390a27.jpg",
     "static/media/chimp.jpg": "/PGCranford/React-to-my-Portfolio/static/media/chimp.85ed3ace8a07c731481e.jpg",
     "index.html": "/PGCranford/React-to-my-Portfolio/index.html",
-    "main.4fd9e0d2.css.map": "/PGCranford/React-to-my-Portfolio/static/css/main.4fd9e0d2.css.map",
+    "main.920c24e9.css.map": "/PGCranford/React-to-my-Portfolio/static/css/main.920c24e9.css.map",
     "main.e17fca88.js.map": "/PGCranford/React-to-my-Portfolio/static/js/main.e17fca88.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fd9e0d2.css",
+    "static/css/main.920c24e9.css",
     "static/js/main.e17fca88.js"
   ]
 }
