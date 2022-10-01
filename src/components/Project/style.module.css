@@ -3,56 +3,26 @@
 }
 
 .project-image img {
-    width: auto;
+
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 35rem;
-    height: 18rem;
+    width: 20rem;
+    height: 12rem;
 
 }
 
-.project-image .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    color: white;
-    background-color: transparent;
-    opacity: 0;
-
-    transition: ease-in-out 1s;
-}
-
-.project-image .overlay:hover {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    color: black;
-    background-color: white;
-    opacity: 0.85;
-}
-
-@media(hover:none) {
-
-    .project-image {
-        opacity: .41;
+@media screen and (max-width: 400px) {
+    .project-image img {
+        width: auto;
     }
-
-}
-
-.project-name {
-    font-size: 1.8rem;
 }
 
 .project-link {
-    font-size: 1.3rem;
+
+    color: rgb(166, 121, 207);
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
 }

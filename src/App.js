@@ -21,7 +21,7 @@ class App extends Component {
 
       <Router className="main-app" >
 
-        <div className="cover-image" >
+    
           <Header></Header>
 
           <main>
@@ -52,7 +52,6 @@ class App extends Component {
             </div>
           </main>
           <Footer></Footer>
-        </div>
       </Router>
 
     );

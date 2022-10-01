@@ -1,14 +1,18 @@
 .project-display {
+    padding-top: 1.5rem;
+    padding-bottom: 0%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
-    background-color: rgb(60, 101, 114);
-    padding: 1.5rem;
-    max-height: 100vh
+    justify-content: center;
+    background-color: rgb(60, 114, 84);
+    height: 100%;
+
+
+
 }
 
-@media screen {
+@media only screen and (max-width: 400px) {
     .project-display {
         display: flex;
         flex-wrap: wrap;
@@ -17,8 +21,8 @@
         background-color: rgb(60, 101, 114);
         padding: 1.5rem;
         max-width: auto;
-        max-height: 100vh
+        max-height: 100vh;
+        overflow-y: auto
     }
-
 
 }

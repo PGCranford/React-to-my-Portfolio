@@ -49,10 +49,10 @@ const Portfolio = () => {
             {
                 projects.map(({ name, link1, link2, imagePath }) => (
                     <Project
+                        imagePath={imagePath}
                         name={name}
                         link1={link1}
                         link2={link2}
-                        imagePath={imagePath}
                         key={name}
                     />
                 ))
