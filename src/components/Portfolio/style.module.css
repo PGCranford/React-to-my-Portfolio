@@ -1,29 +1,53 @@
 .project-display {
-    padding-top: 1.5rem;
-    padding-bottom: 0%;
-    padding-left: 10rem;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: rgb(69, 129, 96);
-    height: 100%;
-
-
-
+  padding-top: 1.5rem;
+  padding-bottom: 0%;
+  padding-left: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(69, 129, 96);
+  height: 100%;
 }
 
 @media only screen and (max-width: 400px) {
-    .project-display {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-around;
-        background-color: rgb(60, 101, 114);
-        padding: 1.5rem;
-        max-width: auto;
-        max-height: 100vh;
-        overflow-y: auto
-    }
+  .project-display {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(60, 101, 114);
+    padding: 1.5rem;
+    max-width: auto;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+}
 
+@media only screen and (max-width: 720px) {
+  .project-display {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(60, 101, 114);
+    padding: 1.5rem;
+    max-width: auto;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .project-display {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(60, 101, 114);
+    padding: 1.5rem;
+    max-width: auto;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
 }

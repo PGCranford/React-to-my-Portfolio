@@ -1,45 +1,47 @@
 .contact-image {
-    background-image: url(../../assets/images/Chip.jpg);
-    background-position: center center;
-    background-repeat: repeat-x;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
-    opacity: 85%;
+  background-image: url(../../assets/images/Chip.jpg);
+  background-position: center center;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  opacity: 85%;
 }
 
 .contact-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: yellow;
-    font-size: 3rem;
-    font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: yellow;
+  font-size: 3rem;
+  font-weight: bolder;
 }
 
 .contact-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-
 .form-input {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: yellow;
-    font-size: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: yellow;
+  font-size: 2rem;
 }
 
 .form-space {
-    width: 25%;
+  width: 25%;
 }
 
+form {
+  color: gold;
+  font-size: 2.5 rem;
+}
 @media only screen and(max-width 768px) {
-    .form-space {
-        width: 100%;
-        margin-top: 0;
-    }
+  .form-space {
+    width: 100%;
+    margin-top: 0;
+  }
 }
