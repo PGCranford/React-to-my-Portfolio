@@ -23,6 +23,11 @@
   justify-content: center;
 }
 
+.contact-email {
+  color: yellow;
+  font-size: 1.8rem;
+}
+
 .form-input {
   display: flex;
   flex-wrap: wrap;

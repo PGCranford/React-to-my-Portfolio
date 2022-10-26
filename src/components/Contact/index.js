@@ -45,6 +45,7 @@ function Contact() {
       <div class="hero-body">
         <div class="container has-text-centered ">
           <h1 className={styles["contact-header"]}>Contact me</h1>
+          <h2 className={styles["contact-email"]}>PGCranford@gmail.com</h2>
           <form
             action="mailto:PGCranford@gmail.com"
             method="get"
