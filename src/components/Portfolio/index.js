@@ -24,19 +24,19 @@ const projects = [
   },
   {
     name: "Horiseon",
-    link1: "https://github.com/PGCranford/Horiseon-Code-Refactor-",
-    link2: "https://pgcranford.github.io/MOD1-/",
+    link1: "https://github.com/PGCranford/Horiseon-Code-Refactor",
+    link2: "https://pgcranford.github.io/Horiseon-Code-Refactor/",
     imagePath: require("../../assets/projects/3.jpg"),
   },
   {
     name: "Work Day Scheduler",
-    link1: "https://github.com/PGCranford/Work-Day-Scheduler-",
+    link1: "https://github.com/PGCranford/Work-Day-Scheduler",
     link2: "https://pgcranford.github.io/Work-Day-Scheduler-/",
     imagePath: require("../../assets/projects/4.jpg"),
   },
   {
     name: "Note Taker",
-    link1: "https://github.com/PGCranford/Take-a-note-Leave-a-note-",
+    link1: "https://github.com/PGCranford/Take-a-note-Leave-a-note",
     link2: "https://dry-cove-43814.herokuapp.com/ ",
     imagePath: require("../../assets/projects/2.jpg"),
   },
