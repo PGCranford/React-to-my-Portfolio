@@ -6,12 +6,12 @@ function Header() {
   return (
     <header className={styles["header"]}>
       <h2>
-        <p>
+        <a id="link" href="/">
           <span role="img" aria-label="banana">
             🍌{" "}
           </span>
           Patrick Cranford
-        </p>
+        </a>
         <Navigation></Navigation>
       </h2>
     </header>
