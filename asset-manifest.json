@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-to-my-Portfolio/static/css/main.b8a163f5.css",
+    "main.js": "/React-to-my-Portfolio/static/js/main.c87ac794.js",
+    "static/media/space.gif": "/React-to-my-Portfolio/static/media/space.7d8bf2b750a2f9e9c4a4.gif",
+    "static/media/0.jpg": "/React-to-my-Portfolio/static/media/0.5266640bca30e9441445.jpg",
+    "static/media/curtains.jpg": "/React-to-my-Portfolio/static/media/curtains.76778a34f54a16057476.jpg",
+    "static/media/beam.jpg": "/React-to-my-Portfolio/static/media/beam.c9da887fb34bfaa048d0.jpg",
+    "static/media/coding.jpg": "/React-to-my-Portfolio/static/media/coding.709cf191570533830bd0.jpg",
+    "static/media/3.jpg": "/React-to-my-Portfolio/static/media/3.5531d923c77304835a9b.jpg",
+    "static/media/5.jpg": "/React-to-my-Portfolio/static/media/5.fe8ef9728b589a448f6c.jpg",
+    "static/media/Chip.jpg": "/React-to-my-Portfolio/static/media/Chip.fb749a473aed021eb030.jpg",
+    "static/media/4.jpg": "/React-to-my-Portfolio/static/media/4.a55ad5c23ca3c3673b23.jpg",
+    "static/media/2.jpg": "/React-to-my-Portfolio/static/media/2.8a58e3793bdcc0ec7261.jpg",
+    "static/media/1.jpg": "/React-to-my-Portfolio/static/media/1.68c3005df47d99390a27.jpg",
+    "static/media/chimp.jpg": "/React-to-my-Portfolio/static/media/chimp.85ed3ace8a07c731481e.jpg",
+    "index.html": "/React-to-my-Portfolio/index.html",
+    "main.b8a163f5.css.map": "/React-to-my-Portfolio/static/css/main.b8a163f5.css.map",
+    "main.c87ac794.js.map": "/React-to-my-Portfolio/static/js/main.c87ac794.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8a163f5.css",
+    "static/js/main.c87ac794.js"
+  ]
+}
