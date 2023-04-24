@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import About from "./components/About";
-// import Home from "./components/Home";
 import Resume from "./components/Resume";
 
 import "./App.css";
@@ -24,7 +23,6 @@ class App extends Component {
               <Route exact path="/About" element={<About />} />
               <Route exact path="/Portfolio" element={<Portfolio />} />
               <Route exact path="/Resume" element={<Resume />} />
-              {/* <Route exact path="/Home" element={<Home />} /> */}
             </Routes>
           </div>
         </main>

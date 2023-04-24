@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "../Navigation";
 import styles from "./style.module.css";
+// import Home from "./components/Home";
 
 function Header() {
   return (
